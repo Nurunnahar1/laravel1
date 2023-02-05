@@ -1,35 +1,7 @@
- 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-1. the Feasibility Study of the SDLC model is:
-    Feasibility study is an important step in the Software Development Life Cycle.
-
-    this is important because:
-    The SDLC defines and outlines a detailed plan with stages, or phases, that each encompass their own process and deliverables.
 
 
-2. 5 advantages of Agile methodology are:
+<?php
+$a=100000;
+$profit= $a>20000 ?25*$a/100 :(( ($a>10000 && $a<20000) ? 20*$a/100 : (($a>7000 && $a<1000) ? 15*$a/100 : "invalid" )));
 
-    .Testing & superior quality product 
-    .Project visibility & transparency 
-    .Empowering the team 
-    .Incessant focus on end-users 
-    .Higher client satisfaction
-
-3.short notes on SDLC model phase are:
-
-    .Planning and requirement analysis
-    .Defining Requirements
-    .Developing the project
-    .Testing
-    .Deployment
-    .Maintenance
-</body>
-</html>
+echo $profit;
