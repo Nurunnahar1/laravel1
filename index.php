@@ -1,7 +1,23 @@
-
-
 <?php
-$a=100000;
-$profit= $a>20000 ?25*$a/100 :(( ($a>10000 && $a<20000) ? 20*$a/100 : (($a>7000 && $a<1000) ? 15*$a/100 : "invalid" )));
 
-echo $profit;
+//No-1=============================
+
+function isEven($i){
+  if($i%2==0){
+    return true ;
+  }return false;
+}
+$i=13;
+if(isEven($i)){
+  echo "{$i} is an even number";
+}else{
+  echo "{$i} is an odd number";
+}
+ 
+
+//No-2=============================
+ $sum=0; 
+ for ($i=1; $i<=100; $i++) { 
+   $sum=$sum+$i; 
+} 
+   echo $sum;  
